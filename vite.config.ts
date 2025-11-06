@@ -11,6 +11,9 @@ export default defineConfig(({ mode }) => {
         assetsDir: 'assets',
         sourcemap: true,
       },
+      optimizeDeps: {
+        include: ['react', 'react-dom', 'react-router-dom']
+      },
       resolve: {
         alias: {
           '@': path.resolve(__dirname, './src')
