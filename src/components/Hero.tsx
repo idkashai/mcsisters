@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
+import img1 from '@/assets/images/1.jpg';
+import img2 from '@/assets/images/2.jpg';
+import img3 from '@/assets/images/3.jpg';
 
-const images = [
-    "/images/1.jpg",
-    "/images/2.jpg",
-    "/images/3.jpg"
-];
+const images = [img1, img2, img3];
 
 const Hero: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);

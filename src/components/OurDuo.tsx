@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import shafaliImg from '@/assets/images/shafali.png';
+import anishaImg from '@/assets/images/anisha.png';
 
 const ProfileCard: React.FC<{
     name: string;
@@ -44,7 +46,7 @@ const OurDuo: React.FC = () => {
                         name="Shafali Shown-Keen"
                         title="Founder & Chief Executive Officer"
                         description="Owner of 5 McDonald's franchises, Shafali brings over two decades of leadership expertise. Her strategic vision centers on sustainable growth and innovation, positioning her businesses as industry leaders. She is dedicated to nurturing talent, fostering opportunity, and shaping long-term success."
-                        imageUrl="/images/Shafali Shown-Keen.png"
+                        imageUrl={shafaliImg}
                         profileUrl="/shafali"
                         buttonText="Explore Shafali's Journey"
                         imageLeft
@@ -56,7 +58,7 @@ const OurDuo: React.FC = () => {
                         name="Anisha Sharma"
                         title="Founder & Chief Operating Officer"
                         description="Owner of 4 McDonald’s franchises, Anisha drives operational excellence with precision and purpose. She builds teams where employees feel valued, empowered, and motivated to perform at their best. Her leadership proves that a strong, people-centered culture is the key to sustainable, high-performing businesses."
-                        imageUrl="/images/anisha.png"
+                        imageUrl={anishaImg}
                         profileUrl="/anisha"
                         buttonText="Discover Anisha's Impact"
                         imageLeft={false}
