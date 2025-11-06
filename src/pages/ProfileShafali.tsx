@@ -1,5 +1,6 @@
 
 import React from 'react';
+import shafaliImg from '@/assets/images/shafali.png';
 
 const AwardIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-brand-gold mr-3 flex-shrink-0"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
@@ -55,7 +56,7 @@ const ProfileShafali: React.FC = () => {
                     </div>
                     <div className="md:col-span-1 order-1 md:order-2 w-full">
                         <div className="relative mt-[20px] md:mt-0">
-                             <img src="/images/Shafali Shown-Keen.png" alt="Shafali Shown-Keen" className="w-full" />
+                            <img src={shafaliImg} alt="Shafali Shown-Keen" className="w-full" />
                              <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-cream to-transparent md:hidden" />
                         </div>
                     </div>
