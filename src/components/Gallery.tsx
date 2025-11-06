@@ -1,10 +1,15 @@
 import React from 'react';
+import img16 from '@/assets/images/IMG-20250915-WA00016.jpg';
+import img5 from '@/assets/images/IMG-20250915-WA0005.jpg';
+import img8 from '@/assets/images/IMG-20250915-WA0008.jpg';
+import img9 from '@/assets/images/IMG-20250915-WA0009.jpg';
+import img10 from '@/assets/images/IMG-20250915-WA0010.jpg';
+import img11 from '@/assets/images/IMG-20250915-WA0011.jpg';
+import img12 from '@/assets/images/IMG-20250915-WA0012.jpg';
+import img13 from '@/assets/images/IMG-20250915-WA0013.jpg';
 
 const images = [
-  '/images/IMG-20250915-WA00016.jpg', '/images/IMG-20250915-WA0005.jpg',
-  '/images/IMG-20250915-WA0008.jpg', '/images/IMG-20250915-WA0009.jpg',
-  '/images/IMG-20250915-WA0010.jpg', '/images/IMG-20250915-WA0011.jpg',
-  '/images/IMG-20250915-WA0012.jpg', '/images/IMG-20250915-WA0013.jpg'
+    img16, img5, img8, img9, img10, img11, img12, img13
 ];
 
 const imageSizes = [
